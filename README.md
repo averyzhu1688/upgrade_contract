@@ -1,6 +1,6 @@
 # OpenZeppelin Hardhat Upgrades
 deploy the v1 conract:
-npx hardhat run scripts/deploy_v1.js --network sepolia
+npx hardhat run scripts/deployV1.js --network sepolia
 
 upgrade contract v2
  npx hardhat run scripts/upgradeV1.js --network sepolia
